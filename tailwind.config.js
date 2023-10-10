@@ -5,6 +5,7 @@ export default {
     extend: {
       fontFamily: {
         pilowlava: ["pilowlava", "sans-serif"],
+        miso: ["miso", "sans-serif"],
       },
     },
   },

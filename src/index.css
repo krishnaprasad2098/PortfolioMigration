@@ -14,3 +14,8 @@ body{
     font-family: 'pilowlava';
     src: url('/fonts/pilowlava/Pilowlava-Regular.otf') format('opentype'); 
 }
+
+@font-face {
+    font-family: 'miso';
+    src: url('/fonts/miso/miso-regular.otf') format('opentype');
+}
