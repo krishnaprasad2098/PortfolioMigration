@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Icon } from "@iconify/react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [nav, setNav] = useState(true);
@@ -8,7 +9,7 @@ const Navbar = () => {
     setNav(!nav);
   };
   return (
-    <div className="flex-col items-end md:flex md:flex-row md:justify-around  py-6">
+    <div className="flex-col items-end md:flex md:flex-row md:justify-between md:px-10  py-6">
       <h1 className="text-3xl px-3 md:text-2xl  font-bold py-2 sm:py-0 md:px-0 font-pilowlava">
         Krishna
       </h1>
@@ -20,15 +21,23 @@ const Navbar = () => {
         }
       >
         <ul className="flex-col gap-6 flex md:flex-row md:gap-8">
-          <li className="">About</li>
-          <li className="">Experience</li>
-          <li className="">Projects</li>
-          <li className="">Contact</li>
+          <li className=" text-xl font-sans" onClick={handleNavbar}>
+            <Link to="/About">About</Link>
+          </li>
+          <li className=" text-xl font-sans" onClick={handleNavbar}>
+            <Link to="/">Experience</Link>
+          </li>
+          <li className=" text-xl font-sans" onClick={handleNavbar}>
+            <Link to="/">Projects</Link>
+          </li>
+          <li className=" text-xl font-sans" onClick={handleNavbar}>
+            <Link to="/">Contact</Link>
+          </li>
         </ul>
       </div>
       <button
         onClick={handleNavbar}
-        className="text-4xl absolute top-10 right-4 md:hidden"
+        className="text-4xl absolute top-8 right-4 md:hidden"
       >
         {nav ? (
           <Icon icon="fluent-mdl2:global-nav-button-active" />
