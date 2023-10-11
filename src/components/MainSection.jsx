@@ -1,5 +1,5 @@
 import React from "react";
-import AboutMe from "../assets/AboutMe.png";
+import MainSectionPic from "../assets/MainSectionPic.png";
 import { Link } from "react-router-dom";
 import { Icon } from "@iconify/react";
 const MainSection = () => {
@@ -7,17 +7,12 @@ const MainSection = () => {
     <div className="flex flex-col items-center md:py-12 py-9  ">
       <div
         id="MainSection"
-        className="flex md:flex-row items-center justify-center gap-5 md:gap-14 flex-col"
+        className="flex md:flex-row items-center justify-center gap-5 md:gap-14 xl:gap-20 flex-col"
       >
-        <img
-          src={AboutMe}
-          alt="Krishna"
-          className="md:max-w-[35%] xl:max-w-md lg:max-w-xs sm:max-w-[30%] max-w-[70%] "
-        />
-        <div className="flex flex-col justify-center items-center gap-5">
-          <div className="flex flex-col gap-1 items-center">
+        <div className="flex flex-col justify-center items-center gap-5 lg:gap-8">
+          <div className="flex flex-col gap-3 items-center">
             <p className="text-xl font-semibold">Hello I'm</p>
-            <p className="text-5xl md:text-7xl lg:text-8xl font-bold font-miso">
+            <p className="text-2xl sm:text-4xl md:text-4xl lg:text-6xl font-bold ">
               S Krishna Prasad
             </p>
             <p className="text-3xl">Frontend Developer</p>
@@ -47,6 +42,11 @@ const MainSection = () => {
           </div> */}
           </div>
         </div>
+        <img
+          src={MainSectionPic}
+          alt="Krishna"
+          className="md:max-w-[35%] xl:max-w-xs lg:max-w-xs sm:max-w-[40%] max-w-[70%] "
+        />
       </div>
     </div>
   );
