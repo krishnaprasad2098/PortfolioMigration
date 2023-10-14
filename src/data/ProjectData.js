@@ -3,9 +3,9 @@ const ProjectData = [
   {
     id: 1,
     imgname: Ethnic,
-    projecttitle: "Ethnic",
+    projecttitle: "Feedback System",
     projectdescription:
-      "An E-Commerce application for handicraft sellers to improve their sales.This was Built using ReactJS and Firebase.",
+      "This is a web application for collecting feedback from students on faculty.This was built using ReactJS,ChartJS and Supabase.",
     projectlink: "https://krishnaprasad2098.github.io/portfolio/",
   },
   {
@@ -13,39 +13,31 @@ const ProjectData = [
     imgname: Ethnic,
     projecttitle: "Ethnic",
     projectdescription:
-      "An E-Commerce application for handicraft sellers to improve their sales.This was Built using ReactJS and Firebase.",
+      "An E-Commerce application for handicraft sellers to improve their  sales.This was Built using ReactJS and Firebase.",
     projectlink: "https://krishnaprasad2098.github.io/portfolio/",
   },
   {
     id: 3,
     imgname: Ethnic,
-    projecttitle: "Ethnic",
+    projecttitle: "cZend Landing Page",
     projectdescription:
-      "An E-Commerce application for handicraft sellers to improve their sales.This was Built using ReactJS and Firebase.",
+      "This is a landing page of a startup developed to improve their business. This was built using Nuxt,EmailJS and Tailwind CSS.",
     projectlink: "https://krishnaprasad2098.github.io/portfolio/",
   },
   {
     id: 4,
     imgname: Ethnic,
-    projecttitle: "Ethnic",
+    projecttitle: "Gym Landing Page",
     projectdescription:
-      "An E-Commerce application for handicraft sellers to improve their sales.This was Built using ReactJS and Firebase.",
+      "This is a landing page of a gym to attract customers and improve their business and market it.This website was built using ReactJS and Tailwind CSS.",
     projectlink: "https://krishnaprasad2098.github.io/portfolio/",
   },
   {
     id: 5,
     imgname: Ethnic,
-    projecttitle: "Ethnic",
+    projecttitle: "Meme Museum",
     projectdescription:
-      "An E-Commerce application for handicraft sellers to improve their sales.This was Built using ReactJS and Firebase.",
-    projectlink: "https://krishnaprasad2098.github.io/portfolio/",
-  },
-  {
-    id: 6,
-    imgname: Ethnic,
-    projecttitle: "Ethnic",
-    projectdescription:
-      "An E-Commerce application for handicraft sellers to improve their sales.This was Built using ReactJS and Firebase.",
+      "This application was developed using flask,DB2,Rapid API,HTML,TailwindCSS. In this application the legacy memes will be showcased.",
     projectlink: "https://krishnaprasad2098.github.io/portfolio/",
   },
 ];
