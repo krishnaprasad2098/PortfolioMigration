@@ -23,7 +23,7 @@ const ExperienceCard = (props) => {
         <p className="font-bold text-center text-lg flex-grow">
           Technical Skills
         </p>
-        <div className="flex gap-3   py-2 flex-wrap justify-stretch ">
+        <div className="flex gap-3   py-3 flex-wrap justify-stretch ">
           {props.technologies.map((tec, idx) => {
             return (
               <div className="py-1 xl:flex-grow text-center" key={idx}>
