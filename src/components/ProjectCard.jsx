@@ -4,10 +4,10 @@ const ProjectCard = (props) => {
   const { imgname, projecttitle, projectdescription, projectlink, id } = props;
   return (
     <div
-      className=" border-4 border-[#fccb06] mx-auto rounded-md   bg-[#222e50] "
+      className=" border-2 border-x-blue-400 border-y-blue-500 bg-purple-100 mx-auto rounded-md   bg-transparent "
       key={id}
     >
-      <div className="xl:max-w-xs flex flex-col h-full text-white ">
+      <div className="xl:max-w-xs flex flex-col h-full text-black ">
         <img
           src={imgname}
           alt={imgname}
@@ -16,7 +16,7 @@ const ProjectCard = (props) => {
         <p className="font-bold text-xl px-3 py-2 text-center">
           {projecttitle}
         </p>
-        <p className="font-semibold text-center text-lg text-white px-3 flex-grow ">
+        <p className="font-semibold text-center text-lg text-black px-3 flex-grow ">
           {projectdescription}
         </p>
         <div className="grid place-items-center py-3">
