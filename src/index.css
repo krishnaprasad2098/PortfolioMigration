@@ -17,7 +17,3 @@ background: linear-gradient(90deg, rgba(228,170,196,0.6027661064425771) 49%, rgb
     src: url('/fonts/pilowlava/Pilowlava-Regular.otf') format('opentype'); 
 }
 
-@font-face {
-    font-family: 'miso';
-    src: url('/fonts/miso/miso-regular.otf') format('opentype');
-}
