@@ -24,7 +24,11 @@ const AboutMe = () => {
           </p>
 
           <div className="flex justify-start py-4 items-end gap-10 md:px-0 px-2">
-            <Link to="/" className="text-3xl md:text-5xl">
+            <Link
+              to="https://www.linkedin.com/in/s-krishna-prasad-66a8a1249"
+              target="_blank"
+              className="text-3xl md:text-5xl"
+            >
               <Icon icon="logos:linkedin" />
             </Link>
             <Link to="/" className="text-3xl md:text-5xl">
