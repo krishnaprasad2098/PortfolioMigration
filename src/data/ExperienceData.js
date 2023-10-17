@@ -1,4 +1,5 @@
 import Limra from "../assets/Limra.jpeg";
+import Prodapt from "../assets/Prodapt.png";
 
 const ExperienceData = [
   {
@@ -48,7 +49,7 @@ const ExperienceData = [
         tech: "Python",
       },
     ],
-    logo: Limra,
+    logo: Prodapt,
   },
 ];
 
