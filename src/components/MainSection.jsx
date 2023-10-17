@@ -1,7 +1,7 @@
 import React from "react";
 import MainSectionPic from "../assets/MainSectionPic.png";
-import { Link } from "react-router-dom";
-import { Icon } from "@iconify/react";
+import KrishnaPrasadResume from "../assets/krishnaprasadResume.pdf";
+
 const MainSection = () => {
   return (
     <div className="flex flex-col items-center md:py-12 py-9  ">
@@ -22,8 +22,15 @@ const MainSection = () => {
               type="button"
               className="px-6 py-3 text-black font-semibold border-2 border-blue-700 rounded-md bg-zinc-100 hover:bg-blue-400 hover:text-white"
             >
-              Download CV
+              <a
+                href={KrishnaPrasadResume}
+                download={KrishnaPrasadResume.pdf}
+                target="_blank"
+              >
+                Download CV
+              </a>
             </button>
+
             <button
               type="button"
               className="px-6 py-3 bg-zinc-100 text-black hover:text-white font-semibold border-2 border-blue-700 rounded-md hover:bg-blue-400"
@@ -31,16 +38,7 @@ const MainSection = () => {
               Contact Me
             </button>
           </div>
-          <div>
-            {/* <div className="flex justify-between items-center gap-10">
-            <Link to="/" className="text-5xl">
-              <Icon icon="devicon:linkedin" />
-            </Link>
-            <Link to="/" className="text-5xl">
-              <Icon icon="icon-park:github" />
-            </Link>
-          </div> */}
-          </div>
+          <div></div>
         </div>
         <img
           src={MainSectionPic}
