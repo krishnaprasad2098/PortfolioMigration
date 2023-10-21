@@ -27,7 +27,7 @@ const ExperienceCard = (props) => {
           {props.technologies.map((tec, idx) => {
             return (
               <div className="py-1 xl:flex-grow text-center" key={idx}>
-                <p className="py-1 border-2 border-blue-500 px-5 text-black font-semibold text-base bg-purple-300 rounded-full">
+                <p className="py-1 border-2 border-blue-300 px-5 text-[#00317a] font-semibold text-base bg-[#eaf1fb] rounded-full">
                   {tec.tech}
                 </p>
               </div>
