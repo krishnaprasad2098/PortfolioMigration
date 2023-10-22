@@ -17,3 +17,10 @@ background: linear-gradient(90deg, rgba(228,170,196,0.6027661064425771) 49%, rgb
     src: url('/fonts/pilowlava/Pilowlava-Regular.otf') format('opentype'); 
 }
 
+.zoom-image {
+    transition: transform 0.2s;
+  }
+  
+  .zoom-image:hover {
+    transform: scale(1.3);
+  }
