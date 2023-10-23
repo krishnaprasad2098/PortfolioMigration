@@ -22,16 +22,19 @@ const Navbar = () => {
       >
         <ul className="flex-col gap-6 flex md:flex-row md:gap-8">
           <li className=" text-xl font-sans" onClick={handleNavbar}>
-            <Link to="/About">About</Link>
+            <a href="#AboutMe">About</a>
           </li>
           <li className=" text-xl font-sans" onClick={handleNavbar}>
-            <Link to="/">Experience</Link>
+            <a href="#Experience">Experience</a>
           </li>
           <li className=" text-xl font-sans" onClick={handleNavbar}>
-            <Link to="/">Projects</Link>
+            <a href="#Skills">Skills</a>
           </li>
           <li className=" text-xl font-sans" onClick={handleNavbar}>
-            <Link to="/">Contact</Link>
+            <a href="#Projects">Projects</a>
+          </li>
+          <li className=" text-xl font-sans" onClick={handleNavbar}>
+            <a href="#Contact">Contact</a>
           </li>
         </ul>
       </div>
