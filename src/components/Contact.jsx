@@ -13,7 +13,7 @@ const Contact = () => {
         <img
           src={form}
           alt=""
-          className="md:max-w-[50%] xl:max-w-lg lg:block lg:max-w-md sm:max-w-[100%] max-w-[70%] h-auto sm:hidden "
+          className="md:max-w-[50%] xl:max-w-lg lg:block lg:max-w-md sm:max-w-[100%] max-w-[70%] h-auto yarn hidden "
         />
       </div>
     </div>
