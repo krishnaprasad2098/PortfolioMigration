@@ -12,7 +12,7 @@ const ExperienceCard = (props) => {
           <img
             src={props.logo}
             alt={props.company}
-            className=" max-w-[8rem] m-auto object-center "
+            className=" max-w-[8rem] m-auto object-center mix-blend-multiply "
           />
         </div>
         <p className="text-xl font-bold text-center">{props.company}</p>
