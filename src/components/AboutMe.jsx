@@ -29,10 +29,14 @@ const AboutMe = () => {
               target="_blank"
               className="text-3xl md:text-5xl"
             >
-              <Icon icon="logos:linkedin" className="zoom-image" />
+              <Icon icon="logos:linkedin" className="zoom-button" />
             </Link>
-            <Link to="/" className="text-3xl md:text-5xl">
-              <Icon icon="logos:instagram" className="zoom-image" />
+            <Link
+              to="https://www.instagram.com/krishnaprasad454/?igshid=YTQwZjQ0NmI0OA%3D%3D"
+              target="_blank"
+              className="text-3xl md:text-5xl"
+            >
+              <Icon icon="logos:instagram" className="zoom-button" />
             </Link>
           </div>
         </div>
