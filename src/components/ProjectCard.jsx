@@ -22,7 +22,7 @@ const ProjectCard = (props) => {
         <div className="grid place-items-center py-3">
           <button
             type="button"
-            className="px-10 py-3 bg-[#edf7f6]  border-4 font-semibold text-lg text-black border-[#fccb06] rounded-md"
+            className="px-10 py-3 zoom-button bg-[#edf7f6]  border-4 font-semibold text-lg text-black border-[#fccb06] rounded-md"
           >
             View in Github
           </button>
