@@ -14,11 +14,11 @@ const Dropdown = (props) => {
         value={props.selectedoption}
         onChange={props.setSelectedoption}
         as="div"
-        className="px-4 py-2 rounded-md border-2 border-purple-400"
+        className="px-3 py-2  rounded-md border-2 border-purple-400 relative"
       >
         <Listbox.Button
           onClick={handleIcon}
-          className="flex justify-between w-full items-center text-semibold text-lg"
+          className="flex justify-between w-full items-center text-semibold text-lg font-sans"
         >
           {props.selectedoption.name}
 
@@ -27,9 +27,14 @@ const Dropdown = (props) => {
             className={isOpen ? "rotate-0" : "rotate-180"}
           />
         </Listbox.Button>
-        <Listbox.Options>
+        <Listbox.Options className="absolute mt-3 z-10 px-3 w-full flex flex-col max-h-36 inset-x-0 rounded-md border-2 border-purple-400 bg-purple-300 py-2">
           {props.service.map((person) => (
-            <Listbox.Option key={person.id} value={person} onClick={handleIcon}>
+            <Listbox.Option
+              key={person.id}
+              value={person}
+              onClick={handleIcon}
+              className="font-sans"
+            >
               {person.name}
             </Listbox.Option>
           ))}
