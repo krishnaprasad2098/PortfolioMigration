@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const ProjectCard = (props) => {
   const { imgname, projecttitle, projectdescription, projectlink, id } = props;
@@ -24,7 +25,9 @@ const ProjectCard = (props) => {
             type="button"
             className="px-10 py-3 zoom-button bg-[#edf7f6]  border-4 font-semibold text-lg text-black border-[#fccb06] rounded-md"
           >
-            View in Github
+            <Link to={projectlink} target="_blank">
+              View in Github
+            </Link>
           </button>
         </div>
       </div>
