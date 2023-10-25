@@ -35,7 +35,7 @@ const MainSection = () => {
               type="button"
               className="px-6 py-3 bg-zinc-100 text-black hover:text-white font-semibold border-2 border-blue-700 rounded-md hover:bg-blue-400"
             >
-              Contact Me
+              <a href="#Contact">Contact Me</a>
             </button>
           </div>
           <div></div>
