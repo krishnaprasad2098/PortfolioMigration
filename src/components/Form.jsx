@@ -23,7 +23,7 @@ const Form = () => {
     if (!values.name || !values.email || !values.message) {
       setErrorMessage("Please fill in all required fields.");
       setSuccessMessage("");
-      console.log(values);
+      // console.log(values);
     } else {
       setErrorMessage("");
       setSuccessMessage("Form submitted successfully!");
@@ -60,12 +60,18 @@ const Form = () => {
     validate,
   });
 
-  console.log(formik.errors);
+  // console.log(formik.errors);
   return (
     <div>
-      {errorMessage && <div className="error-message">{errorMessage}</div>}
+      {errorMessage && (
+        <p className="text-red-600 border-2 border-red-500 px-2 py-1 rounded-lg">
+          {errorMessage}
+        </p>
+      )}
       {successMessage && (
-        <div className="success-message">{successMessage}</div>
+        <p className="text-white flex justify-center border-2 border-green-500 px-2 py-1 rounded-lg bg-green-700">
+          {successMessage}
+        </p>
       )}
       <form onSubmit={formik.handleSubmit} className="">
         <div className="flex flex-col gap-3">
