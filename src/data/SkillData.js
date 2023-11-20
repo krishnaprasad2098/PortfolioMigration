@@ -13,7 +13,7 @@ import selenium from "../assets/Selenium.svg";
 const SkillData = [
   {
     id: 1,
-    img: react,
+    img: "../../src/assets/React.svg",
   },
   {
     id: 2,
