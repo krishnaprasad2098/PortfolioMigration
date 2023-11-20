@@ -32,3 +32,15 @@ background: linear-gradient(90deg, rgba(228,170,196,0.6027661064425771) 49%, rgb
   .zoom-button:hover {
     transform: scale(1.1);
   }
+
+
+  html{
+    scroll-behavior: smooth;
+    
+  }
+
+
+  body{
+    scroll-margin: 0;
+    scroll-padding: 0;
+  }
