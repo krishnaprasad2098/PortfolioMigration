@@ -1,5 +1,5 @@
 import html from "../assets/html.png";
-import react from "../assets/React.svg";
+import react from "../../src/assets/React.svg";
 import cypress from "../assets/Cypress.svg";
 import git from "../assets/Git.svg";
 import java from "../assets/Java.svg";
