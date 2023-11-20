@@ -8,32 +8,33 @@ const Navbar = () => {
   const handleNavbar = () => {
     setNav(!nav);
   };
+
   return (
     <div className="flex-col items-end md:flex md:flex-row md:justify-between md:px-10  py-6">
-      <h1 className="text-3xl px-3 md:text-2xl  font-bold py-2 sm:py-0 md:px-0 font-pilowlava">
+      <h1 className="text-3xl px-3 md:text-2xl  font-bold  sm:py-0 md:px-0 font-pilowlava">
         Krishna
       </h1>
       <div
         className={
           nav
             ? "hidden md:flex md:flex-row items-center gap-8 md:text-xl "
-            : "font-semibold items-center flex flex-col py-6 text-xl "
+            : "font-semibold items-center flex flex-col py-0 text-xl "
         }
       >
         <ul className="flex-col gap-6 flex md:flex-row md:gap-8">
-          <li className=" text-xl font-sans" onClick={handleNavbar}>
+          <li className=" text-xl font-sans " onClick={handleNavbar}>
             <a href="#AboutMe">About</a>
           </li>
-          <li className=" text-xl font-sans" onClick={handleNavbar}>
+          <li className=" text-xl font-sans " onClick={handleNavbar}>
             <a href="#Experience">Experience</a>
           </li>
-          <li className=" text-xl font-sans" onClick={handleNavbar}>
+          <li className=" text-xl font-sans " onClick={handleNavbar}>
             <a href="#Skills">Skills</a>
           </li>
-          <li className=" text-xl font-sans" onClick={handleNavbar}>
+          <li className=" text-xl font-sans " onClick={handleNavbar}>
             <a href="#Projects">Projects</a>
           </li>
-          <li className=" text-xl font-sans" onClick={handleNavbar}>
+          <li className=" text-xl font-sans " onClick={handleNavbar}>
             <a href="#Contact">Contact</a>
           </li>
         </ul>
