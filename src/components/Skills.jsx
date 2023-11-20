@@ -10,7 +10,7 @@ const Skills = () => {
             <img
               src={ele.img}
               alt=""
-              className="max-h-28 w-auto bg-transparent p-3 rounded-2xl  bg-opacity-40 aspect-square zoom-image  "
+              className="max-h-28 w-auto bg-transparent p-3 rounded-2xl   bg-opacity-40  zoom-image  "
               key={ele.id}
             />
           );

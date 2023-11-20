@@ -1,5 +1,5 @@
 import html from "../assets/html.png";
-import react from "../../src/assets/React.svg";
+import react from "../../src/assets/React.png";
 import cypress from "../assets/Cypress.svg";
 import git from "../assets/Git.svg";
 import java from "../assets/Java.svg";
@@ -13,7 +13,7 @@ import selenium from "../assets/Selenium.svg";
 const SkillData = [
   {
     id: 1,
-    img: "../../src/assets/React.svg",
+    img: react,
   },
   {
     id: 2,
