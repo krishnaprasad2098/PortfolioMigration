@@ -8,11 +8,11 @@ const ProjectCard = (props) => {
       className=" border-2 border-x-blue-400 border-y-blue-500 bg-purple-100 mx-auto rounded-md   bg-transparent "
       key={id}
     >
-      <div className="xl:max-w-xs flex flex-col h-full text-black ">
+      <div className="xl:max-w-xs flex  flex-col h-full text-black ">
         <img
           src={imgname}
           alt={imgname}
-          className="p-3 rounded-[1rem] object-contain"
+          className="p-3 rounded-[1rem] object-contain h-full xl:object-fill"
         />
         <p className="font-bold text-xl px-3 py-2 text-center">
           {projecttitle}
