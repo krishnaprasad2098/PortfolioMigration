@@ -18,10 +18,10 @@ const Navbar = () => {
         className={
           nav
             ? "hidden md:flex md:flex-row items-center gap-8 md:text-xl "
-            : "font-semibold items-center flex flex-col py-0 text-xl "
+            : "font-semibold items-center flex flex-col py-12 text-xl "
         }
       >
-        <ul className="flex-col gap-6 flex md:flex-row md:gap-8">
+        <ul className="flex-col gap-4 flex md:flex-row md:gap-8">
           <li className=" text-xl font-sans " onClick={handleNavbar}>
             <a href="#AboutMe">About</a>
           </li>
@@ -41,13 +41,9 @@ const Navbar = () => {
       </div>
       <button
         onClick={handleNavbar}
-        className="text-4xl absolute top-8 right-4 md:hidden"
+        className="text-4xl absolute top-6 right-4 md:hidden"
       >
-        {nav ? (
-          <Icon icon="fluent-mdl2:global-nav-button-active" />
-        ) : (
-          <Icon icon="ep:close-bold" />
-        )}
+        {nav ? <Icon icon="ci:hamburger-lg" /> : <Icon icon="ep:close-bold" />}
       </button>
     </div>
   );

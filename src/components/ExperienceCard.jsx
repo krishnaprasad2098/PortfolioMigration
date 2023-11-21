@@ -19,7 +19,7 @@ const ExperienceCard = (props) => {
         <p className="text-lg font-normal text-center">{props.title}</p>
 
         <p className="text-base font-medium text-center">{props.duration}</p>
-        <p className="font-semibold text-justify font-sans ">
+        <p className="font-normal text-justify font-sans ">
           {props.description}
         </p>
         <p className="font-bold text-center text-lg ">Technical Skills</p>

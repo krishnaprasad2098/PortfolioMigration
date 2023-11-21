@@ -12,7 +12,7 @@ const ProjectCard = (props) => {
         <img
           src={imgname}
           alt={imgname}
-          className="p-3 rounded-[1rem] object-contain h-full xl:object-fill"
+          className="p-3 rounded-[1rem] object-contain h-full xl:object-fill aspect-video"
         />
         <p className="font-bold text-xl px-3 py-2 text-center">
           {projecttitle}
