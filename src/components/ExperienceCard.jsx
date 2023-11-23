@@ -23,11 +23,11 @@ const ExperienceCard = (props) => {
           {props.description}
         </p>
         <p className="font-bold text-center text-lg ">Technical Skills</p>
-        <div className="flex gap-3   py-3 flex-wrap sm:justify-stretch  justify-center ">
+        <div className="flex gap-3 py-3 flex-wrap sm:justify-stretch  justify-center ">
           {props.technologies.map((tec, idx) => {
             return (
               <div className="py-1 xl:flex-grow text-center" key={idx}>
-                <p className="py-1 border-2 border-blue-300 px-5 text-[#00317a] font-semibold text-base bg-[#eaf1fb] rounded-full">
+                <p className="py-1 border-2 border-blue-300 px-5 text-[#00317a] font-semibold text-base bg-[#eaf1fb] rounded-full max-w-fit">
                   {tec.tech}
                 </p>
               </div>
