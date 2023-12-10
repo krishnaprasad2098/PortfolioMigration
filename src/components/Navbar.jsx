@@ -18,7 +18,7 @@ const Navbar = () => {
         className={
           nav
             ? "hidden md:flex md:flex-row items-center gap-8 md:text-xl "
-            : "font-semibold items-center flex flex-col py-10 text-xl "
+            : "font-semibold items-center flex flex-col sm:py-0 py-12 text-xl "
         }
       >
         <ul className="flex-col gap-4 flex md:flex-row md:gap-8">
