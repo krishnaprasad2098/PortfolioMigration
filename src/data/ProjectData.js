@@ -2,7 +2,8 @@ import Ethnic from "../assets/Ethnic.avif";
 import feedbackSystem from "../assets/feedbackSystem.avif";
 import cZend from "../assets/Czend.png";
 import gym from "../assets/GymWebsite.png";
-import Meme from "../assets/MemeMuseum.avif";
+// import Meme from "../assets/MemeMuseum.avif";
+import Duolingo from "../assets/DuolingoClone.png";
 const ProjectData = [
   {
     id: 1,
@@ -38,11 +39,11 @@ const ProjectData = [
   },
   {
     id: 5,
-    imgname: Meme,
-    projecttitle: "Meme Museum",
+    imgname: Duolingo,
+    projecttitle: "Duolingo Clone",
     projectdescription:
-      "This application was developed using flask,DB2,Rapid API,HTML,TailwindCSS. In this application the legacy memes will be showcased.",
-    projectlink: "https://github.com/krishnaprasad2098",
+      "This is an duolingo clone where the users can learn new languages in an interactive way. It was built using NextJS,NeonDB,Drizzle ORM,TailwindCSS.",
+    projectlink: "https://github.com/krishnaprasad2098/duolingo",
   },
 ];
 
