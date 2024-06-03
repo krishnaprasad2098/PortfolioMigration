@@ -1,6 +1,5 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Icon } from "@iconify/react";
-import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [nav, setNav] = useState(true);

@@ -1,5 +1,5 @@
 import MainSectionPic from "../assets/MainSectionPic.png";
-import KrishnaPrasadResume from "../assets/krishnaPrasadResumeNew.pdf";
+import KrishnaPrasadResumeNew from "../assets/krishnaPrasadResumeNew.pdf";
 
 const MainSection = () => {
   return (
@@ -22,8 +22,8 @@ const MainSection = () => {
               className="px-6 py-3 text-black font-semibold border-2 border-blue-700 rounded-md bg-zinc-100 hover:bg-blue-400 hover:text-white"
             >
               <a
-                href={KrishnaPrasadResume}
-                download={KrishnaPrasadResume.pdf}
+                href={KrishnaPrasadResumeNew}
+                download={KrishnaPrasadResumeNew.pdf}
                 target="_blank"
                 rel="noreferrer"
               >
