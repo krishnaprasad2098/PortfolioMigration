@@ -1,6 +1,5 @@
-import React from "react";
 import MainSectionPic from "../assets/MainSectionPic.png";
-import KrishnaPrasadResume from "../assets/krishnaprasadResume.pdf";
+import KrishnaPrasadResume from "../assets/krishnaPrasadResumeNew.pdf";
 
 const MainSection = () => {
   return (
@@ -11,7 +10,7 @@ const MainSection = () => {
       >
         <div className="flex flex-col justify-center items-center gap-5 lg:gap-8">
           <div className="flex flex-col gap-3 items-center">
-            <p className="text-xl font-semibold">Hello I'm</p>
+            <p className="text-xl font-semibold">Hello I&apos;m</p>
             <p className="text-2xl sm:text-4xl md:text-4xl lg:text-6xl font-bold ">
               S Krishna Prasad
             </p>
@@ -26,6 +25,7 @@ const MainSection = () => {
                 href={KrishnaPrasadResume}
                 download={KrishnaPrasadResume.pdf}
                 target="_blank"
+                rel="noreferrer"
               >
                 Download CV
               </a>
