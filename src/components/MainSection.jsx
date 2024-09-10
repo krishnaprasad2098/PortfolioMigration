@@ -1,5 +1,6 @@
 import MainSectionPic from "../assets/MainSectionPic.png";
-import KrishnaPrasadResume from "../assets/KrishnaPrasadResume.pdf";
+// import KrishnaPrasadResume from "../assets/KrishnaPrasadResume.pdf";
+import KrishnaPrasadResume from "../../src/assets/KrishnaPrasadResume.pdf";
 
 const MainSection = () => {
   return (
