@@ -1,6 +1,6 @@
 import MainSectionPic from "../assets/MainSectionPic.png";
 // import KrishnaPrasadResume from "../assets/krishnaprasadResume.pdf";
-import KrishnaPrasadResume from "../../src/assets/krishnaprasadResume.pdf";
+import KrishnaPrasadResume from "../../src/assets/krishnaPrasadNewResume.pdf";
 
 const MainSection = () => {
   return (
@@ -20,7 +20,7 @@ const MainSection = () => {
           <div className="flex md:flex-row items-center gap-4 ">
             <button
               type="button"
-              className="px-6 py-3 text-black font-semibold border-2 border-blue-700 rounded-md bg-zinc-100 hover:bg-blue-400 hover:text-white"
+              className="px-6 py-3 text-black font-sans font-semibold border-2 border-blue-700 rounded-md bg-zinc-100 hover:bg-blue-400 hover:text-white"
             >
               <a
                 href={KrishnaPrasadResume}
@@ -34,7 +34,7 @@ const MainSection = () => {
 
             <button
               type="button"
-              className="px-6 py-3 bg-zinc-100 text-black hover:text-white font-semibold border-2 border-blue-700 rounded-md hover:bg-blue-400"
+              className="px-6 font-sans py-3 bg-zinc-100 text-black hover:text-white font-semibold border-2 border-blue-700 rounded-md hover:bg-blue-400"
             >
               <a href="#Contact">Contact Me</a>
             </button>
