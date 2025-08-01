@@ -21,14 +21,14 @@ const ProjectData = [
       "An E-Commerce application for handicraft sellers to improve their  sales.This was Built using ReactJS and Firebase.",
     projectlink: "https://github.com/krishnaprasad2098/Ethinic",
   },
-  {
-    id: 3,
-    imgname: cZend,
-    projecttitle: "cZend Landing Page",
-    projectdescription:
-      "This is a landing page of a startup developed to improve their business. This was built using Nuxt,EmailJS and Tailwind CSS.",
-    projectlink: "https://czend.in",
-  },
+  // {
+  //   id: 3,
+  //   imgname: cZend,
+  //   projecttitle: "cZend Landing Page",
+  //   projectdescription:
+  //     "This is a landing page of a startup developed to improve their business. This was built using Nuxt,EmailJS and Tailwind CSS.",
+  //   projectlink: "https://czend.in",
+  // },
   {
     id: 4,
     imgname: gym,
